@@ -1,0 +1,44 @@
+.box{
+    width:800px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color:white;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.box .welcome{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    left: 0px;
+    background-color: green;
+   border-radius: 30px;
+}
+.box form{
+    position: absolute;;
+    top: 40px;
+    right: 140px;
+}
+input{
+    border-bottom: 2px solid black;
+    width: 280px;
+}
+.continue{
+    width: 280px;
+}
+.existing{
+    box-shadow: 2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey,
+    2px 2px 2px grey;
+    font-size: 20px;
+    color: green;
+    width: 280px;
+}

@@ -1,0 +1,92 @@
+*{
+    font-family: 'Inconsolata', monospace;
+   
+   
+    
+}
+h3{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+}
+.view{
+    position: absolute;
+    right: 0px;
+}
+.heighlight{
+    height: 120px;
+    border-bottom: 2px solid black;
+    box-shadow: 2px 2px 8px grey,
+    2px 2px 8px grey,
+    2px 2px 8px grey,
+    2px 2px 8px grey;
+}
+.items{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.add{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.card{
+    box-shadow: 2px 2px 8px black;
+}
+.bottom{
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+}
+.foot h2,p{
+    color: white;
+    font-weight: bold;
+}
+.emailbtn{
+    border-radius: 20px;
+    font-weight: bold;
+}
+.emailin{
+    border-radius: 20px;
+}
+ .row a{
+    color: white;
+}
+li{
+    list-style: none;
+}
+.row li a h4{
+    color:black;
+}
+.company{
+    height: 500px;
+    padding: 40px;
+    border-top: 2px solid grey;
+    box-shadow: 2px 2px 4px grey,
+    2px 2px 6px grey,
+    2px 2px 8px grey,
+    2px 2px 10px grey,
+    2px 2px 12px grey,
+    2px 2px 14px grey,
+    2px 2px 16px grey;
+}
+.partition{
+    box-shadow: 2px 2px 6px black;
+    width: 5px;
+    background-color: grey;
+}
+img{
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey,
+    2px 2px 3px grey,
+    2px 2px 4px grey,
+    2px 2px 5px grey,
+    2px 2px 6px grey,
+    2px 2px 7px grey;
+}
